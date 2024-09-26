@@ -16,7 +16,9 @@ Now, let's dive into each phase in detail.
 
 ## Phase 1: Handling dataset
 
-Investigating the distribution of classes when combining LULC classes with JRC SMOD classes. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/bc7d844c41b1a4a569965480858dc83bfe8f9baf/data_handling/class_dist_esri_full_smod.ipynb)
+Investigating the class distribution when combining LULC classes with JRC SMOD classes. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/bc7d844c41b1a4a569965480858dc83bfe8f9baf/data_handling/class_dist_esri_full_smod.ipynb)
+
+Bulk Country-Wise Data Downloading from GEE: Landsat-8 and VIIRS Nighttime Light Dataset. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/9a7d934f811bd5b36301862bd0ec04d3d66c906b/data_handling/data_loading_inference.ipynb) We are looking to perform bulk data downloads on a country-wise basis from GEE. This will include both Landsat-8 imagery and VIIRS nighttime light datasets.
 
 
 
