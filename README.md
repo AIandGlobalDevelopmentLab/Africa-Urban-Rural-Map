@@ -20,6 +20,10 @@ Investigating the class distribution when combining LULC classes with JRC SMOD c
 
 Bulk Country-Wise Data Downloading from GEE: Landsat-8 and VIIRS Nighttime Light Dataset. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/9a7d934f811bd5b36301862bd0ec04d3d66c906b/data_handling/data_loading_inference.ipynb) We are looking to perform bulk data downloads on a country-wise basis from GEE. This will include both Landsat-8 imagery and VIIRS nighttime light datasets.
 
+Downloading data relevant to a specific set of coordinates. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/99aaebfd492fe72bf8c755a2deb8ba232722d615/data_handling/data_loading_single_tile_from_coords.ipynb)
+
+Downloading tiles covering a square area. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/3be2801b47f078cee1c6b9e2dd4d564d436a672e/data_handling/data_loading_single_tiles_from_list_2013_2022.ipynb) . We are looking to download data tiles that cover a defined square area.
+
 
 
 ## Phase 2: Training deep models
