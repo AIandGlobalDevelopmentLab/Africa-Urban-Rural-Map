@@ -16,6 +16,10 @@ Now, let's dive into each phase in detail.
 
 ## Phase 1: Handling dataset
 
+Investigating the distribution of classes when combining LULC classes with JRC SMOD classes. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/bc7d844c41b1a4a569965480858dc83bfe8f9baf/data_handling/class_dist_esri_full_smod.ipynb)
+
+
+
 ## Phase 2: Training deep models
 
 
