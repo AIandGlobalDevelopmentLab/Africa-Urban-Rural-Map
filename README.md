@@ -15,6 +15,7 @@ The simulation setup consists of several phases, each designed to serve a specif
 Now, let's dive into each phase in detail.
 
 ## Phase 1: Handling dataset
+This phase involves downloading data from GEE and preparing the dataset for both the model training and prediction phases.
 
 Investigating the class distribution when combining LULC classes with JRC SMOD classes. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/bc7d844c41b1a4a569965480858dc83bfe8f9baf/data_handling/class_dist_esri_full_smod.ipynb)
 
@@ -23,7 +24,6 @@ Bulk Country-Wise Data Downloading from GEE: Landsat-8 and VIIRS Nighttime Light
 Downloading data relevant to a specific set of coordinates. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/99aaebfd492fe72bf8c755a2deb8ba232722d615/data_handling/data_loading_single_tile_from_coords.ipynb)
 
 Downloading tiles covering a square area. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/3be2801b47f078cee1c6b9e2dd4d564d436a672e/data_handling/data_loading_single_tiles_from_list_2013_2022.ipynb) . We are looking to download data tiles that cover a defined square area.
-
 
 
 ## Phase 2: Training deep models
