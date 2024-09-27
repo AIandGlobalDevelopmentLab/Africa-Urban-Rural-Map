@@ -28,6 +28,7 @@ Downloading tiles covering a square area. [Jupyter notebook](https://github.com/
 
 ## Phase 2: Training deep models
 
+The definition of the utilized DeepLabV3 model that is used in this work in available in the [python script](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/b61ecf559a21df5db840dfada224eac73e184ddd/training/DeepLabV3_Lightning_ESRI_UrbanRural.py). 
 
 ## Phase 3: Evaluation
 
