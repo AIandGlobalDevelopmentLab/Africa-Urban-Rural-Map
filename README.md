@@ -28,13 +28,13 @@ Downloading tiles covering a square area. [Jupyter notebook](https://github.com/
 
 ## Phase 2: Training deep models
 
-The definition of the utilized DeepLabV3 model that is used in this work in available in the [python script](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/b61ecf559a21df5db840dfada224eac73e184ddd/training/DeepLabV3_Lightning_ESRI_UrbanRural.py). 
+The definition of the DeepLabV3 model used in this work is available in the [python script](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/b61ecf559a21df5db840dfada224eac73e184ddd/training/DeepLabV3_Lightning_ESRI_UrbanRural.py). 
 
-Modules that are used in train/test phases. Data loader, data pipeline, pre-preocessing the data, sharing work between GPUs, etc. [Python script](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/abaf2c8a0985eaf6504f5fa6b7a6db11032e566f/training/TrainingDataModule_ESRI_UrbanRural.py)
+The modules used during the training and testing phases, including the data loader, data pipeline, preprocessing, and GPU workload distribution, can be found in this [Python script](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/abaf2c8a0985eaf6504f5fa6b7a6db11032e566f/training/TrainingDataModule_ESRI_UrbanRural.py)
 
-Defining five folds and the relevent trained models. Utilizing the moduls to train the model. [Python script](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/abaf2c8a0985eaf6504f5fa6b7a6db11032e566f/training/Training_Lightning_ESRI_UrbanRural.py)
+For the definition of the five data folds and the relevant trained models, as well as using the modules for training model, refer to this [Python script](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/abaf2c8a0985eaf6504f5fa6b7a6db11032e566f/training/Training_Lightning_ESRI_UrbanRural.py)
 
-We trained the model using NAISS cloud computation service by running a [Bash script](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/7da77dd2b99a1e4ea74a1324a4d42ce1b7bbbb4e/training/lightning_deeplabv3_train_esri_urban_rural.sh)
+The model was trained using the NAISS cloud computing service by executing this [Bash script](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/7da77dd2b99a1e4ea74a1324a4d42ce1b7bbbb4e/training/lightning_deeplabv3_train_esri_urban_rural.sh)
 
 ## Phase 3: Evaluation
 
