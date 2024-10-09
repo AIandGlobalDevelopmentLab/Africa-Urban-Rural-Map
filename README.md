@@ -1,4 +1,4 @@
-# LULC-Rural-Urban
+# Africa-Rural-Urban-Map
 This repository contains the replication code for the paper *LULC with Urban/Rural Classes in Africa Using Deep Learning and Satellite Imagery*. It includes a link to access the LULC product, instructions for using the trained model to predict LULC in any desired location, and step-by-step guidance for replicating and reproducing the study's results.
 
 ## Introduction
