@@ -37,6 +37,16 @@ For the definition of the five data folds and the relevant trained models, as we
 The model was trained using the NAISS cloud computing service by executing this [Bash script](https://github.com/AIandGlobalDevelopmentLab/LULC-Rural-Urban/blob/7da77dd2b99a1e4ea74a1324a4d42ce1b7bbbb4e/training/lightning_deeplabv3_train_esri_urban_rural.sh)
 
 ## Phase 3: Evaluation
+Evaluating the performance of the model temporally [python script](https://github.com/AIandGlobalDevelopmentLab/Africa-Rural-Urban-Map/blob/f61a0086302931e9da7783edf5e3051c244b4fb5/evaluation/Testing_Lightning_ESRI_UrbanRural_2018to2022.py)
+
+Evaluating the performance of the model country-wise [python script](https://github.com/AIandGlobalDevelopmentLab/Africa-Rural-Urban-Map/blob/f61a0086302931e9da7783edf5e3051c244b4fb5/evaluation/Testing_Lightning_ESRI_UrbanRural_CountryWise.py)
+
+Metric analysis including accuracy, precission, recall, IoU and F1-score. [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/Africa-Rural-Urban-Map/blob/56bdf6d0dc3be89b541096ca3e7e8ee7c0b4d148/evaluation/Metric%20Analysis%20-%20Landcover%20Prediction_ESRI_UrbanRural_Africa.ipynb)
+
+Metric analysis for country-wise Box plot visualization [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/Africa-Rural-Urban-Map/blob/21f08e5f511faa1e2f23fd46ba1a1015ea94b851/evaluation/Metric%20Analysis%20-%20Landcover%20Prediction_ESRI_UrbanRural_Country_Boxplot.ipynb)
+
+Metric analysis for country-wise CSV generation [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/Africa-Rural-Urban-Map/blob/21f08e5f511faa1e2f23fd46ba1a1015ea94b851/evaluation/Metric%20Analysis%20-%20Landcover%20Prediction_ESRI_UrbanRural_Country_ToCSV.ipynb)
+
 
 
 ## Phase 4: Prediction
