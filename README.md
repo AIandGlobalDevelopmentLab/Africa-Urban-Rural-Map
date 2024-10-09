@@ -47,6 +47,7 @@ Metric analysis for country-wise Box plot visualization [Jupyter notebook](https
 
 Metric analysis for country-wise CSV generation [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/Africa-Rural-Urban-Map/blob/21f08e5f511faa1e2f23fd46ba1a1015ea94b851/evaluation/Metric%20Analysis%20-%20Landcover%20Prediction_ESRI_UrbanRural_Country_ToCSV.ipynb)
 
+Using DHS dataset to evaluate JRC SMOD and ours generated maps [GEE JavaScript](https://github.com/AIandGlobalDevelopmentLab/Africa-Rural-Urban-Map/blob/206c36b43a442cb355e57f00a06ea636e0fce02f/evaluation/DHS_evaluate.js)
 
 ## Phase 4: Prediction
 Predict and visualize the LULC with rural/urban classes, and smooth the prediction using a sliding window [Jupyter notebook](https://github.com/AIandGlobalDevelopmentLab/Africa-Rural-Urban-Map/blob/046b9daa327ef4703df9e7445d51ff0816150f46/prediction/Visualize_Prediction_ESRI_UrbanRural_Smoothened_plot.ipynb)
