@@ -1,5 +1,5 @@
 # Africa-Rural-Urban-Map
-This repository contains the replication code for the paper *LULC with Urban/Rural Classes in Africa Using Deep Learning and Satellite Imagery*. It includes a link to access the LULC product, instructions for using the trained model to predict LULC in any desired location, and step-by-step guidance for replicating and reproducing the study's results.
+This repository contains the replication code for the paper *High resolution Rural-Urban Map of Africa Using Deep Learning and Satellite Imagery*. It includes a link to access the LULC product, instructions for using the trained model to predict LULC in any desired location, and step-by-step guidance for replicating and reproducing the study's results.
 
 ## Introduction
 This README provides comprehensive instructions for setting up and using our system to generate LULC-Rural-Urban maps. It is designed to help users replicate the process by providing Python script files. The README is organized into a step-by-step guide, with important notes Furthermore, all script files are thoroughly commented to aid users in following the instructions effectively.
